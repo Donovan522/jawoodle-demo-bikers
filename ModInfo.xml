@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Demolition Bikers" />
+    <Description value="Changes Biker zombies into Demolition zombies" />
+    <Author value="Donovan Young" />
+    <Version value="18.4.1.0" compat="A18" />
+  </ModInfo>
+</xml>

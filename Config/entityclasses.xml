@@ -1,0 +1,11 @@
+<configs>
+  <remove xpath="/entity_classes/entity_class[@name='zombieBiker']" />
+  <remove xpath="/entity_classes/entity_class[@name='zombieBikerFeral']" />
+  <remove xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']" />
+
+  <insertAfter xpath="/entity_classes/entity_class[@name='zombieDemolition']">
+    <entity_class name="zombieBiker" extends="zombieDemolition" />
+    <entity_class name="zombieBikerFeral" extends="zombieDemolition" />
+    <entity_class name="zombieBikerRadiated" extends="zombieDemolition" />
+  </insertAfter>
+</configs>
